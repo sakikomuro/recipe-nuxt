@@ -18,21 +18,23 @@
       </svg>
 
       <input
+        v-model="searchItem"
         placeholder="Search"
         type="text"
-        class="border border-gray-700 rounded-lg w-full h-10 px-11 tracking-wider"
+        class="border border-gray-700 rounded-lg w-full h-10 px-11 tracking-wider font-serif"
       />
     </div>
     <div
       class="grid grid-cols-1 space-y-9 lg:grid-cols-3 lg:space-y-0 w-4/5 mx-auto"
     >
       <CardComponent
-        v-for="card in list"
+        v-for="card in result"
         :key="card.id"
         :recipe-id="card.id"
         :title="card.title"
         :text="card.text"
         :url="card.url"
+        :items="card.items"
       >
       </CardComponent>
     </div>
@@ -47,9 +49,10 @@ export default {
       list: [
         {
           id: 1,
-          title: 'さつまいも',
-          text: 'ほくほく',
-          url: 'https://smtgvs.weathernews.jp/s/topics/img/201911/201911050195_top_img_A.jpg?1573098462',
+          title: 'きのこのマリネ',
+          text: 'シャキシャキきのこのマリネをおうちで手軽に！お酢と白だしでさっぱり美味しい',
+          items: ['きのこ', '白だし'],
+          url: 'https://www.higashimaru.co.jp/img/recipe/0324_pic.jpg',
         },
         {
           id: 2,
@@ -70,7 +73,17 @@ export default {
           url: 'https://cdn.macaro-ni.jp/assets/img/shutterstock/shutterstock_208420516.jpg?p=1x1',
         },
       ],
+      searchItem: '',
     }
+  },
+  computed: {
+    result() {
+      if (this.searchItem === '') {
+        return this.list
+      } else {
+        return this.list.filter((item) => item.title.includes(this.searchItem))
+      }
+    },
   },
 }
 </script>

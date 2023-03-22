@@ -1,14 +1,39 @@
 <template>
-  <div
-    class="border border-red-200 w-64 mx-auto rounded-lg h-80 hover:opacity-75 hover:cursor-pointer"
-  >
-    <NuxtLink :to="'/' + recipeId">
-      <img class="rounded-t-lg" :src="url" />
-      <h2 class="py-5 px-2 text-lg font-semibold">{{ title }}</h2>
-      <p class="px-2 text-xs">
-        {{ text }}
-      </p>
-    </NuxtLink>
+  <div class="lg:py-5">
+    <div
+      class="border border-red-200 w-64 mx-auto rounded-lg h-80 hover:opacity-75 hover:cursor-pointer"
+    >
+      <label for="my-modal-4">
+        <img class="rounded-t-lg h-40 w-full" :src="url" />
+        <h2 class="py-5 px-2 text-lg font-semibold">{{ title }}</h2>
+        <p class="px-2 text-xs">
+          {{ text }}
+        </p>
+      </label>
+    </div>
+
+    <!-- Put this part before </body> tag -->
+    <input type="checkbox" id="my-modal-4" class="modal-toggle" />
+    <label for="my-modal-4" class="modal cursor-pointer">
+      <label class="modal-box relative" for="">
+        <img class="w-4/5 m-auto" :src="url" />
+        <h2 class="px-2 pt-7 text-lg font-semibold">使われている材料</h2>
+        <div class="flex items-center space-x-2 py-8">
+          <p
+            class="bg-red-200/50 w-32 rounded-full text-xl text-center"
+            v-for="item in items"
+            :key="item"
+          >
+            {{ item }}
+          </p>
+        </div>
+        <NuxtLink
+          :to="'/' + recipeId"
+          class="btn btn-outline text-red-400 flex justify-center"
+          >もっと見る</NuxtLink
+        >
+      </label>
+    </label>
   </div>
 </template>
 
@@ -17,6 +42,10 @@ export default {
   props: {
     title: { type: String, default: '' },
     text: { type: String, default: '' },
+    items: {
+      type: Array,
+      default: () => [],
+    },
     url: { type: String, default: '' },
     recipeId: { type: Number, default: 0 },
   },
