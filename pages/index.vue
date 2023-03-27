@@ -33,7 +33,7 @@
         :recipe-id="card.id"
         :title="card.title"
         :text="card.text"
-        :url="card.url"
+        :image="card.image"
         :items="card.items"
       >
       </CardComponent>
@@ -50,30 +50,30 @@ export default {
         {
           id: 1,
           title: 'きのこのマリネ',
-          text: 'シャキシャキきのこのマリネをおうちで手軽に！お酢と白だしでさっぱり美味しい',
-          items: ['きのこ', '白だし'],
-          url: 'https://www.higashimaru.co.jp/img/recipe/0324_pic.jpg',
+          text: 'シャキシャキきのこのマリネをおうちで手軽に！白だしとレモン汁でさっぱり美味しい',
+          items: ['きのこ', '白だし', 'レモン汁'],
+          image: 'mushroom',
         },
         {
           id: 2,
-          title: 'じゃがいも',
-          text: 'わくわく',
-          items: ['じゃがいも'],
-          url: 'https://www.hyponex.co.jp/yasai_daijiten/websys/wp-content/uploads/2020/09/%E3%82%B8%E3%83%A3%E3%82%AC%E3%82%A4%E3%83%A2C-770x475.jpg',
+          title: 'ローストビーフ',
+          text: 'オーブンでじっくり焼くローストビーフ。たまねぎソースが良いアクセント',
+          items: ['牛肉'],
+          image: 'beef',
         },
         {
           id: 3,
           title: 'なす',
           text: 'ぷりっ',
           items: ['きのこ', '白だし'],
-          url: 'https://cdn.macaro-ni.jp/assets/img/shutterstock/shutterstock_208420516.jpg?p=1x1',
+          image: 'beef',
         },
         {
           id: 4,
           title: 'なす',
           text: 'ぷりっ',
           items: ['きのこ', '白だし'],
-          url: 'https://cdn.macaro-ni.jp/assets/img/shutterstock/shutterstock_208420516.jpg?p=1x1',
+          image: 'beef',
         },
       ],
       searchItem: '',

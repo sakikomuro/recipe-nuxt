@@ -14,13 +14,48 @@ import HeaderComponent from '../components/HeaderComponent.vue';
             alt=""
           />
         </div>
-        <div class="mx-auto flex-1 h-64 align-top">
-          <h2 class="font-bold py-5">&lt; 材料 &gt;</h2>
-          <ul class="list-disc px-5 flex flex-col space-y-1">
-            <li>好きなきのこ3種</li>
-            <li>白だし</li>
-            <li>レモン汁</li>
-            <li>オリーブオイル</li>
+        <div class="mx-auto flex-1 align-top">
+          <h2 class="font-bold pb-3">&lt; 材料 &gt;</h2>
+          <ul
+            class="px-5 flex flex-col space-y-1 [&>li]:border-dotted [&>li]:border-slate-300 [&>li]:border-b-2 [&>li]:flex [&>li]:justify-between"
+          >
+            <li>
+              <p>エリンギ</p>
+              <p>1パック</p>
+            </li>
+            <li>
+              <p>まいたけ</p>
+              <p>1パック</p>
+            </li>
+            <li>
+              <p>ブナピー</p>
+              <p>1パック</p>
+            </li>
+
+            <p class="text-sm">（好きなきのこで結構です）</p>
+
+            <h3>A</h3>
+            <li>
+              <p>白だし</p>
+              <p></p>
+              大さじ3
+            </li>
+            <li>
+              <p>レモン汁</p>
+              <p>大さじ2</p>
+            </li>
+            <li>
+              <p>お酢</p>
+              <p>大さじ2</p>
+            </li>
+            <li>
+              <p>オリーブオイル</p>
+              <p>大さじ1</p>
+            </li>
+            <li>
+              <p>こしょう</p>
+              <p>少々</p>
+            </li>
           </ul>
         </div>
       </div>
@@ -28,14 +63,16 @@ import HeaderComponent from '../components/HeaderComponent.vue';
       <div>
         <h2 class="font-bold py-5">&lt; 作り方 &gt;</h2>
         <ul class="list-decimal px-5 flex flex-col space-y-1">
-          <li>きのこをフライパンに入れ、汗をかくまで強火で放置しておく</li>
-          <li>たれを混ぜ合わせておく</li>
-          <li>きのこが汗をかいてきたら上下返し、軽く炒める</li>
           <li>
-            きのこを皿に取り出し、同じフライパンにタレを入れ軽く煮立たせる。この時フライパンをこそぐようにする
+            きのこをフライパンに入れ、強火で熱する。この時きのこをあまり動かさない。
+          </li>
+          <li>きのこが汗をかいてきたら上下返し、軽く炒める。</li>
+          <li>
+            一旦きのこを皿に取り出し、同じフライパンにAを入れ軽く煮立たせる。
           </li>
           <li>
-            お皿に取り出しておいたきのこを再度フライパンに乗せ混ぜ合わせる
+            取り出しておいたきのこを<span class="font-bold">3</span
+            >に入れ、混ぜ合わせる
           </li>
           <li>完成</li>
         </ul>
