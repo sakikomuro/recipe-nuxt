@@ -52,6 +52,7 @@ export default {
           title: 'きのこのマリネ',
           text: 'シャキシャキきのこのマリネをおうちで手軽に！白だしとレモン汁でさっぱり美味しい',
           items: ['きのこ', '白だし', 'レモン汁'],
+          searches: ['キノコ', 'まりね', 'れもん'],
           image: 'mushroom',
         },
         {
@@ -59,6 +60,14 @@ export default {
           title: 'ローストビーフ',
           text: 'オーブンでじっくり焼くローストビーフ。たまねぎソースが良いアクセント',
           items: ['牛肉', 'たまねぎ'],
+          searches: [
+            '牛肉',
+            '牛もも肉',
+            '玉ねぎ',
+            'たまねぎ',
+            'タマネギ',
+            'オーブン',
+          ],
           image: 'beef',
         },
         {
@@ -66,6 +75,7 @@ export default {
           title: 'なす',
           text: 'ぷりっ',
           items: ['きのこ', '白だし'],
+          searches: ['', 'まりね'],
           image: 'beef',
         },
         {
@@ -73,6 +83,7 @@ export default {
           title: 'なす',
           text: 'ぷりっ',
           items: ['きのこ', '白だし'],
+          searches: ['', 'まりね'],
           image: 'beef',
         },
       ],
@@ -85,8 +96,8 @@ export default {
         return this.recipes
       } else {
         return this.recipes.filter((recipe) => {
-          const result = recipe.items.find((item) => {
-            return item.includes(this.searchItem)
+          const result = recipe.searches.find((search) => {
+            return search.includes(this.searchItem)
           })
           return result !== undefined || recipe.title.includes(this.searchItem)
         })
