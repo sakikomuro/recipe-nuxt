@@ -16,59 +16,76 @@ import HeaderComponent from '../components/HeaderComponent.vue';
             class="px-5 flex flex-col space-y-1 [&>li]:border-dotted [&>li]:border-slate-300 [&>li]:border-b-2 [&>li]:flex [&>li]:justify-between"
           >
             <li>
-              <p>エリンギ</p>
-              <p>1パック</p>
-            </li>
-            <li>
-              <p>まいたけ</p>
-              <p>1パック</p>
-            </li>
-            <li>
-              <p>ブナピー</p>
-              <p>1パック</p>
-            </li>
-
-            <p class="text-sm">（好きなきのこで結構です）</p>
-
-            <h3>A</h3>
-            <li>
-              <p>白だし</p>
-              <p></p>
-              大さじ3
-            </li>
-            <li>
-              <p>レモン汁</p>
-              <p>大さじ2</p>
-            </li>
-            <li>
-              <p>お酢</p>
-              <p>大さじ2</p>
+              <p>牛もも肉</p>
+              <p>300g</p>
             </li>
             <li>
               <p>オリーブオイル</p>
               <p>大さじ1</p>
             </li>
+            <h3>A</h3>
+            <li>
+              <p>塩</p>
+              <p>適量</p>
+            </li>
             <li>
               <p>こしょう</p>
-              <p>少々</p>
+              <p>適量</p>
+            </li>
+            <p class="text-sm"></p>
+            <h3>B</h3>
+            <li>
+              <p>たまねぎ</p>
+              <p>半分</p>
+            </li>
+            <li>
+              <p>料理酒</p>
+              <p>大さじ1</p>
+            </li>
+            <li>
+              <p>しょうゆ</p>
+              <p>大さじ1</p>
+            </li>
+            <li>
+              <p>砂糖</p>
+              <p>小さじ2</p>
+            </li>
+            <li>
+              <p>にんにく</p>
+              <p>1片</p>
             </li>
           </ul>
         </div>
       </div>
 
-      <div>
+      <div class="mb-10">
         <h2 class="font-bold py-5">&lt; 作り方 &gt;</h2>
         <ul class="list-decimal px-5 flex flex-col space-y-1">
+          <p>
+            <span class="font-bold">準備1：</span>オーブンを120度に予熱しておく
+          </p>
+          <p>
+            <span class="font-bold">準備2：</span>牛もも肉は常温に戻しておく
+          </p>
+
+          <li>牛もも肉全体にAをすり込む。</li>
           <li>
-            きのこをフライパンに入れ、強火で熱する。この時きのこをあまり動かさない。
+            フライパンにオリーブオイルを入れ、<span class="font-bold">1</span
+            >の前面に焼き色が付くまで強火で焼く。
           </li>
-          <li>きのこが汗をかいてきたら上下返し、軽く炒める。</li>
           <li>
-            一旦きのこを皿に取り出し、同じフライパンにAを入れ軽く煮立たせる。
+            天板にクッキングシートを敷き、<span class="font-bold">2</span
+            >を乗せて120度のオーブンで25分程焼き、さらに20分置く。
           </li>
           <li>
-            取り出しておいたきのこを<span class="font-bold">3</span
-            >に入れ、混ぜ合わせる
+            <span class="font-bold">2</span
+            >で使用したフライパンにBを入れ中火で熱する。
+          </li>
+          <li>
+            <span class="font-bold">3</span
+            >を好みの厚さにスライスし皿に盛り付け、<span class="font-bold"
+              >4</span
+            >をかける。
           </li>
           <li>完成</li>
         </ul>

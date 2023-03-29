@@ -37,8 +37,7 @@ import HeaderComponent from '../components/HeaderComponent.vue';
             <h3>A</h3>
             <li>
               <p>白だし</p>
-              <p></p>
-              大さじ3
+              <p>大さじ3</p>
             </li>
             <li>
               <p>レモン汁</p>

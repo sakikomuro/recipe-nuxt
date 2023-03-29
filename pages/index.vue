@@ -58,7 +58,7 @@ export default {
           id: 2,
           title: 'ローストビーフ',
           text: 'オーブンでじっくり焼くローストビーフ。たまねぎソースが良いアクセント',
-          items: ['牛肉'],
+          items: ['牛肉', 'たまねぎ'],
           image: 'beef',
         },
         {
