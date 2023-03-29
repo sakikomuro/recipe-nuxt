@@ -6,7 +6,7 @@ import HeaderComponent from '../components/HeaderComponent.vue';
     <div class="w-3/5 mx-auto">
       <h1 class="pt-10 font-bold text-2xl">きのこのマリネ</h1>
 
-      <div class="flex items-center py-10">
+      <div class="flex flex-col space-y-9 lg:flex-row lg:items-center py-10">
         <div class="flex flex-col flex-1">
           <img
             class="w-80 h-64"
