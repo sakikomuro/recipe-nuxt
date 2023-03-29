@@ -1,7 +1,7 @@
 <template>
   <div class="lg:py-5">
     <div
-      class="border border-red-200 w-64 mx-auto rounded-lg h-80 hover:opacity-75 hover:cursor-pointer"
+      class="border w-64 mx-auto rounded-lg h-80 hover:opacity-75 hover:cursor-pointer"
     >
       <label :for="recipeId">
         <img

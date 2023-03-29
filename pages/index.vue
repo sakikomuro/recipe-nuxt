@@ -75,7 +75,7 @@ export default {
           title: 'なす',
           text: 'ぷりっ',
           items: ['きのこ', '白だし'],
-          searches: ['', 'まりね'],
+          searches: ['', ''],
           image: 'beef',
         },
         {
@@ -83,7 +83,7 @@ export default {
           title: 'なす',
           text: 'ぷりっ',
           items: ['きのこ', '白だし'],
-          searches: ['', 'まりね'],
+          searches: ['', ''],
           image: 'beef',
         },
       ],
