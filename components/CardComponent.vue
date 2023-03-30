@@ -8,7 +8,7 @@
           class="rounded-t-lg h-40 w-full"
           :src="require(`~/assets/image/${image}.jpg`)"
         />
-        <h2 class="py-5 px-2 text-lg font-semibold">{{ title }}</h2>
+        <h2 class="py-5 px-2 text-lg font-semibold font-serif">{{ title }}</h2>
         <p class="px-2 text-xs">
           {{ text }}
         </p>

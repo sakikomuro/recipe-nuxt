@@ -19,7 +19,7 @@
 
       <input
         v-model="searchItem"
-        placeholder="Search"
+        placeholder="食材、料理名で検索"
         type="text"
         class="border border-gray-700 rounded-lg w-full h-10 px-11 tracking-wider font-serif"
       />
