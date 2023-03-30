@@ -1,18 +1,14 @@
 import HeaderComponent from '../components/HeaderComponent.vue';
 
 <template>
-  <div>
+  <div class="pb-10">
     <HeaderComponent></HeaderComponent>
     <div class="w-4/5 lg:w-3/5 mx-auto">
       <h1 class="pt-10 font-bold text-2xl">きのこのマリネ</h1>
 
       <div class="flex flex-col space-y-9 lg:flex-row lg:items-center py-10">
         <div class="flex flex-col flex-1">
-          <img
-            class="w-80 h-64"
-            src="https://www.higashimaru.co.jp/img/recipe/0324_pic.jpg"
-            alt=""
-          />
+          <img class="w-80 h-64" src="~/assets/image/mushroom.jpg" alt="" />
         </div>
         <div class="mx-auto flex-1 align-top w-full">
           <h2 class="font-bold pb-3">&lt; 材料 &gt;</h2>

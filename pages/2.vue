@@ -1,19 +1,19 @@
 import HeaderComponent from '../components/HeaderComponent.vue';
 
 <template>
-  <div>
+  <div class="pb-10">
     <HeaderComponent></HeaderComponent>
-    <div class="w-3/5 mx-auto">
+    <div class="w-4/5 lg:w-3/5 mx-auto">
       <h1 class="pt-10 font-bold text-2xl">ローストビーフ</h1>
 
-      <div class="flex items-center py-10">
+      <div class="flex flex-col space-y-9 lg:flex-row lg:items-center py-10">
         <div class="flex flex-col flex-1">
           <img class="w-80 h-64" src="~/assets/image/beef.jpg" alt="" />
         </div>
-        <div class="mx-auto flex-1 align-top">
+        <div class="mx-auto flex-1 align-top w-full">
           <h2 class="font-bold pb-3">&lt; 材料 &gt;</h2>
           <ul
-            class="px-5 flex flex-col space-y-1 [&>li]:border-dotted [&>li]:border-slate-300 [&>li]:border-b-2 [&>li]:flex [&>li]:justify-between"
+            class="lg:px-5 flex flex-col space-y-1 [&>li]:border-dotted [&>li]:border-slate-300 [&>li]:border-b-2 [&>li]:flex [&>li]:justify-between"
           >
             <li>
               <p>牛もも肉</p>
@@ -58,7 +58,7 @@ import HeaderComponent from '../components/HeaderComponent.vue';
         </div>
       </div>
 
-      <div class="mb-10">
+      <div>
         <h2 class="font-bold py-5">&lt; 作り方 &gt;</h2>
         <ul class="list-decimal px-5 flex flex-col space-y-1">
           <p>
