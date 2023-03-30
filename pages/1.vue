@@ -3,7 +3,7 @@ import HeaderComponent from '../components/HeaderComponent.vue';
 <template>
   <div>
     <HeaderComponent></HeaderComponent>
-    <div class="w-3/5 mx-auto">
+    <div class="w-4/5 lg:w-3/5 mx-auto">
       <h1 class="pt-10 font-bold text-2xl">きのこのマリネ</h1>
 
       <div class="flex flex-col space-y-9 lg:flex-row lg:items-center py-10">
@@ -14,10 +14,10 @@ import HeaderComponent from '../components/HeaderComponent.vue';
             alt=""
           />
         </div>
-        <div class="mx-auto flex-1 align-top">
+        <div class="mx-auto flex-1 align-top w-full">
           <h2 class="font-bold pb-3">&lt; 材料 &gt;</h2>
           <ul
-            class="px-5 flex flex-col space-y-1 [&>li]:border-dotted [&>li]:border-slate-300 [&>li]:border-b-2 [&>li]:flex [&>li]:justify-between"
+            class="flex flex-col space-y-1 [&>li]:border-dotted [&>li]:border-slate-300 [&>li]:border-b-2 [&>li]:flex [&>li]:justify-between lg:px-5"
           >
             <li>
               <p>エリンギ</p>
