@@ -11,45 +11,39 @@ import HeaderComponent from '../components/HeaderComponent.vue';
           <img class="w-80 h-64" src="~/assets/image/Arabiata.jpg" alt="" />
         </div>
         <div class="mx-auto flex-1 align-top w-full">
-          <h2 class="font-bold pb-3">&lt; 材料 &gt;</h2>
+          <h2 class="font-bold pb-3">&lt; 材料（2人分） &gt;</h2>
           <ul
             class="flex flex-col space-y-1 [&>li]:border-dotted [&>li]:border-slate-300 [&>li]:border-b-2 [&>li]:flex [&>li]:justify-between lg:px-5"
           >
-            <li>
-              <p>エリンギ</p>
-              <p>1パック</p>
-            </li>
-            <li>
-              <p>まいたけ</p>
-              <p>1パック</p>
-            </li>
-            <li>
-              <p>ブナピー</p>
-              <p>1パック</p>
-            </li>
+            <p class="text-sm"></p>
 
-            <p class="text-sm">（好きなきのこで結構です）</p>
-
-            <h3>A</h3>
             <li>
-              <p>白だし</p>
-              <p>大さじ3</p>
+              <p>お好きなパスタ</p>
+              <p>160g</p>
             </li>
             <li>
-              <p>レモン汁</p>
-              <p>大さじ2</p>
+              <p>トマト缶</p>
+              <p>1缶</p>
             </li>
             <li>
-              <p>お酢</p>
-              <p>大さじ2</p>
+              <p>にんにくみじん切り</p>
+              <p>1片</p>
+            </li>
+            <li>
+              <p>赤唐辛子</p>
+              <p>1〜2本</p>
             </li>
             <li>
               <p>オリーブオイル</p>
               <p>大さじ1</p>
             </li>
             <li>
-              <p>こしょう</p>
+              <p>塩</p>
               <p>少々</p>
+            </li>
+            <li>
+              <p>水</p>
+              <p>400g</p>
             </li>
           </ul>
         </div>
@@ -59,17 +53,13 @@ import HeaderComponent from '../components/HeaderComponent.vue';
         <h2 class="font-bold py-5">&lt; 作り方 &gt;</h2>
         <ul class="list-decimal px-5 flex flex-col space-y-1">
           <li>
-            きのこをフライパンに入れ、強火で熱する。この時きのこをあまり動かさない。
+            フライパンにオリーブオイル、にんにく、赤唐辛子を入れ弱火で熱する。
           </li>
-          <li>きのこが汗をかいてきたら上下返し、軽く炒める。</li>
+          <li>香りが出てきたらトマト缶、水、塩を加え沸騰させる。</li>
           <li>
-            一旦きのこを皿に取り出し、同じフライパンにAを入れ軽く煮立たせる。
+            パスタを加え表記時間通りに茹でる。時々パスタがくっつかないように混ぜる。
           </li>
-          <li>
-            取り出しておいたきのこを<span class="font-bold">3</span
-            >に入れ、混ぜ合わせる
-          </li>
-          <li>完成</li>
+          <li>蓋をあけ、ひと混ぜしたら完成。</li>
         </ul>
       </div>
     </div>
