@@ -8,7 +8,7 @@ import HeaderComponent from '../components/HeaderComponent.vue';
 
       <div class="flex flex-col space-y-9 lg:flex-row lg:items-center py-10">
         <div class="flex flex-col flex-1">
-          <img class="w-80 h-64" src="~/assets/image/Arabiata.jpg" alt="" />
+          <img class="w-80 h-64" src="~/assets/image/img4.jpg" alt="" />
         </div>
         <div class="mx-auto flex-1 align-top w-full">
           <h2 class="font-bold pb-3">&lt; 材料（2人分） &gt;</h2>

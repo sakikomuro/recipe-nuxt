@@ -61,7 +61,7 @@ export default {
             'しめじ',
             'まいたけ',
           ],
-          image: 'mushroom',
+          image: 'img1',
         },
         {
           id: 2,
@@ -76,7 +76,7 @@ export default {
             'タマネギ',
             'オーブン',
           ],
-          image: 'beef',
+          image: 'img2',
         },
         {
           id: 3,
@@ -95,7 +95,7 @@ export default {
             'トマト',
             'シーフード',
           ],
-          image: 'ajillo',
+          image: 'img3',
         },
         {
           id: 4,
@@ -114,7 +114,7 @@ export default {
             'パスタ',
             'ぱすた',
           ],
-          image: 'Arabiata',
+          image: 'img4',
         },
         {
           id: 5,
