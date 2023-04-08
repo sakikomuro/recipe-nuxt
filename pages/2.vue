@@ -68,7 +68,7 @@ import HeaderComponent from '../components/HeaderComponent.vue';
             <span class="font-bold">準備2：</span>牛もも肉は常温に戻しておく
           </p>
 
-          <li>牛もも肉全体にAをすり込む。</li>
+          <li>牛もも肉全体に<span class="font-bold">A</span>をすり込む。</li>
           <li>
             フライパンにオリーブオイルを入れ、<span class="font-bold">1</span
             >の前面に焼き色が付くまで強火で焼く。

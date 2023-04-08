@@ -63,7 +63,9 @@ import HeaderComponent from '../components/HeaderComponent.vue';
           </li>
           <li>きのこが汗をかいてきたら上下返し、軽く炒める。</li>
           <li>
-            一旦きのこを皿に取り出し、同じフライパンにAを入れ軽く煮立たせる。
+            一旦きのこを皿に取り出し、同じフライパンに<span class="font-bold"
+              >A</span
+            >を入れ軽く煮立たせる。
           </li>
           <li>
             取り出しておいたきのこを<span class="font-bold">3</span
