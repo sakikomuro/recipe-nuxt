@@ -8,7 +8,7 @@ import HeaderComponent from '../components/HeaderComponent.vue';
 
       <div class="flex flex-col space-y-9 lg:flex-row lg:items-center py-10">
         <div class="flex flex-col flex-1">
-          <img class="w-80 h-64" src="~/assets/image/mushroom.jpg" alt="" />
+          <img class="w-80 h-64" src="~/assets/image/img1.jpg" alt="" />
         </div>
         <div class="mx-auto flex-1 align-top w-full">
           <h2 class="font-bold pb-3">&lt; 材料 &gt;</h2>
@@ -63,7 +63,9 @@ import HeaderComponent from '../components/HeaderComponent.vue';
           </li>
           <li>きのこが汗をかいてきたら上下返し、軽く炒める。</li>
           <li>
-            一旦きのこを皿に取り出し、同じフライパンにAを入れ軽く煮立たせる。
+            一旦きのこを皿に取り出し、同じフライパンに<span class="font-bold"
+              >A</span
+            >を入れ軽く煮立たせる。
           </li>
           <li>
             取り出しておいたきのこを<span class="font-bold">3</span

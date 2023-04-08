@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HeaderComponent></HeaderComponent>
+    <HeaderComponent @onClick="clearText"></HeaderComponent>
     <div class="w-4/5 flex my-20 items-center relative sm:w-1/3 mx-auto">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ export default {
             'しめじ',
             'まいたけ',
           ],
-          image: 'mushroom',
+          image: 'img1',
         },
         {
           id: 2,
@@ -76,7 +76,7 @@ export default {
             'タマネギ',
             'オーブン',
           ],
-          image: 'beef',
+          image: 'img2',
         },
         {
           id: 3,
@@ -95,7 +95,7 @@ export default {
             'トマト',
             'シーフード',
           ],
-          image: 'ajillo',
+          image: 'img3',
         },
         {
           id: 4,
@@ -114,7 +114,23 @@ export default {
             'パスタ',
             'ぱすた',
           ],
-          image: 'Arabiata',
+          image: 'img4',
+        },
+        {
+          id: 5,
+          title: '鶏むね肉の甘辛唐揚げ',
+          text: 'むね肉を使用しているのでヘルシーでコスパ抜群！',
+          items: ['鶏むね肉'],
+          searches: ['胸肉', '鶏肉', 'あんかけ', 'とり肉', 'むね肉'],
+          image: 'img5',
+        },
+        {
+          id: 6,
+          title: 'よだれ鶏',
+          text: 'ピリ辛に味付けしたネギだれで食欲をそそること間違いなし。火を使わない簡単レシピです。',
+          items: ['鶏むね肉', 'ねぎ'],
+          searches: ['胸肉', '鶏肉', 'ネギ', 'とり肉', '長ネギ', '長ねぎ'],
+          image: 'img6',
         },
       ],
       searchItem: '',
@@ -132,6 +148,12 @@ export default {
           return result !== undefined || recipe.title.includes(this.searchItem)
         })
       }
+    },
+  },
+
+  methods: {
+    clearText() {
+      this.searchItem = ''
     },
   },
 }

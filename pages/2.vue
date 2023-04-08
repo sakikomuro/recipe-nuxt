@@ -8,7 +8,7 @@ import HeaderComponent from '../components/HeaderComponent.vue';
 
       <div class="flex flex-col space-y-9 lg:flex-row lg:items-center py-10">
         <div class="flex flex-col flex-1">
-          <img class="w-80 h-64" src="~/assets/image/beef.jpg" alt="" />
+          <img class="w-80 h-64" src="~/assets/image/img2.jpg" alt="" />
         </div>
         <div class="mx-auto flex-1 align-top w-full">
           <h2 class="font-bold pb-3">&lt; 材料 &gt;</h2>
@@ -68,7 +68,7 @@ import HeaderComponent from '../components/HeaderComponent.vue';
             <span class="font-bold">準備2：</span>牛もも肉は常温に戻しておく
           </p>
 
-          <li>牛もも肉全体にAをすり込む。</li>
+          <li>牛もも肉全体に<span class="font-bold">A</span>をすり込む。</li>
           <li>
             フライパンにオリーブオイルを入れ、<span class="font-bold">1</span
             >の前面に焼き色が付くまで強火で焼く。
