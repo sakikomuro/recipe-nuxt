@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HeaderComponent></HeaderComponent>
+    <HeaderComponent @onClick="clearText"></HeaderComponent>
     <div class="w-4/5 flex my-20 items-center relative sm:w-1/3 mx-auto">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -148,6 +148,12 @@ export default {
           return result !== undefined || recipe.title.includes(this.searchItem)
         })
       }
+    },
+  },
+
+  methods: {
+    clearText() {
+      this.searchItem = ''
     },
   },
 }
