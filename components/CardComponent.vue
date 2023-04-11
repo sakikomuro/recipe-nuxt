@@ -24,11 +24,11 @@
           :src="require(`~/assets/image/${image}.jpg`)"
         />
         <h2 class="px-2 pt-7 text-lg font-semibold">使われている材料</h2>
-        <div class="flex items-center space-x-2 py-8">
+        <div class="grid grid-cols-3 py-8">
           <p
             v-for="item in items"
             :key="item"
-            class="bg-red-200/50 w-1/3 rounded-full text-xl text-center"
+            class="bg-red-200/50 rounded-full text-xl text-center m-2"
           >
             {{ item }}
           </p>

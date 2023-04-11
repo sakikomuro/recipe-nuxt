@@ -55,13 +55,12 @@ import HeaderComponent from '../components/HeaderComponent.vue';
           <li>にんにくをみじん切りにする。</li>
           <li>
             スキレットに<span class="font-bold">1</span
-            >を入れ、にんにくがきつね色になるまで熱する。
+            >とオリーブオイルを入れ、にんにくがきつね色になるまで熱する。
           </li>
+          <li><span class="font-bold">2</span>に具材を入れる。</li>
           <li>
-            <span class="font-bold">2</span
-            >に小エビ、マッシュルーム、ベーコンを入れる。
+            全体に火が通ったら塩とこしょうをお好みで入れ軽く混ぜ合わせる。
           </li>
-          <li>全体に火が通ったら塩とこしょうをお好みで入れる。</li>
           <li>完成</li>
         </ul>
       </div>

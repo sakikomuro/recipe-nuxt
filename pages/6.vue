@@ -32,10 +32,6 @@ import HeaderComponent from '../components/HeaderComponent.vue';
               <p>砂糖</p>
               <p>小さじ1</p>
             </li>
-            <li>
-              <p>大葉</p>
-              <p>1枚</p>
-            </li>
 
             <h3>A</h3>
             <li>

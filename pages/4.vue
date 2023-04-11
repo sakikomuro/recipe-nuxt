@@ -39,7 +39,7 @@ import HeaderComponent from '../components/HeaderComponent.vue';
             </li>
             <li>
               <p>塩</p>
-              <p>少々</p>
+              <p>適量</p>
             </li>
             <li>
               <p>水</p>
@@ -55,7 +55,7 @@ import HeaderComponent from '../components/HeaderComponent.vue';
           <li>
             フライパンにオリーブオイル、にんにく、赤唐辛子を入れ弱火で熱する。
           </li>
-          <li>香りが出てきたらトマト缶、水、塩を加え沸騰させる。</li>
+          <li>香りが出てきたらトマト缶、水、塩を加え軽く沸騰させる。</li>
           <li>
             パスタを加え表記時間通りに茹でる。時々パスタがくっつかないように混ぜる。
           </li>

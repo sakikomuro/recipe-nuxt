@@ -78,8 +78,10 @@ import HeaderComponent from '../components/HeaderComponent.vue';
             >を乗せて120度のオーブンで25分程焼き、さらに20分置く。
           </li>
           <li>
-            <span class="font-bold">2</span
-            >で使用したフライパンにBを入れ中火で熱する。
+            <span class="font-bold">2</span>で使用したフライパンに<span
+              class="font-bold"
+              >B</span
+            >を入れ中火で熱する。
           </li>
           <li>
             <span class="font-bold">3</span
