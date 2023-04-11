@@ -58,6 +58,7 @@ import HeaderComponent from '../components/HeaderComponent.vue';
       <div>
         <h2 class="font-bold py-5">&lt; 作り方 &gt;</h2>
         <ul class="list-decimal px-5 flex flex-col space-y-1">
+          <li>きのこを好みの大きさに割く。大きめに割くのがおすすめ。</li>
           <li>
             きのこをフライパンに入れ、強火で熱する。この時きのこをあまり動かさない。
           </li>
@@ -71,7 +72,7 @@ import HeaderComponent from '../components/HeaderComponent.vue';
             取り出しておいたきのこを<span class="font-bold">3</span
             >に入れ、混ぜ合わせる
           </li>
-          <li>完成</li>
+          <li>粗熱をとって冷蔵庫で30分〜1時間冷やして完成</li>
         </ul>
       </div>
     </div>
